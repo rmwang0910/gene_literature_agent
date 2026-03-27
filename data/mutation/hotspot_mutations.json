@@ -1,0 +1,2578 @@
+{
+  "created_at": "2026-03-20 13:28:22",
+  "source": "cBioPortal TCGA API (TCGA)",
+  "data_url": "https://www.cbioportal.org/api",
+  "description": "数据来自TCGA项目，通过cBioPortal API免费获取，无需API Key",
+  "genes": {
+    "TP53": [
+      {
+        "mutation": "R175H",
+        "position": 175,
+        "ref_aa": "R",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 65,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R273H",
+        "position": 273,
+        "ref_aa": "R",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 44,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R248W",
+        "position": 248,
+        "ref_aa": "R",
+        "alt_aa": "W",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 37,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R248Q",
+        "position": 248,
+        "ref_aa": "R",
+        "alt_aa": "Q",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 34,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R213*",
+        "position": 213,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 32,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R196*",
+        "position": 196,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 31,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y220C",
+        "position": 220,
+        "ref_aa": "Y",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 30,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R282W",
+        "position": 282,
+        "ref_aa": "R",
+        "alt_aa": "W",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 28,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R273C",
+        "position": 273,
+        "ref_aa": "R",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 27,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G245S",
+        "position": 245,
+        "ref_aa": "G",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 22,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R306*",
+        "position": 306,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 20,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V157F",
+        "position": 157,
+        "ref_aa": "V",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 19,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H179R",
+        "position": 179,
+        "ref_aa": "H",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 18,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H193R",
+        "position": 193,
+        "ref_aa": "H",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 16,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R342*",
+        "position": 342,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 15,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "I195T",
+        "position": 195,
+        "ref_aa": "I",
+        "alt_aa": "T",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 15,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R249S",
+        "position": 249,
+        "ref_aa": "R",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 15,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y163C",
+        "position": 163,
+        "ref_aa": "Y",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 12,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y205C",
+        "position": 205,
+        "ref_aa": "Y",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 11,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C176Y",
+        "position": 176,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 11,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E298*",
+        "position": 298,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 11,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y234C",
+        "position": 234,
+        "ref_aa": "Y",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L194R",
+        "position": 194,
+        "ref_aa": "L",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G245D",
+        "position": 245,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q192*",
+        "position": 192,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R158L",
+        "position": 158,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C176F",
+        "position": 176,
+        "ref_aa": "C",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H193L",
+        "position": 193,
+        "ref_aa": "H",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V216M",
+        "position": 216,
+        "ref_aa": "V",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G245V",
+        "position": 245,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V272M",
+        "position": 272,
+        "ref_aa": "V",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C238Y",
+        "position": 238,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H179Y",
+        "position": 179,
+        "ref_aa": "H",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R110L",
+        "position": 110,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R337C",
+        "position": 337,
+        "ref_aa": "R",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q331*",
+        "position": 331,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "M237I",
+        "position": 237,
+        "ref_aa": "M",
+        "alt_aa": "I",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "K132N",
+        "position": 132,
+        "ref_aa": "K",
+        "alt_aa": "N",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C238F",
+        "position": 238,
+        "ref_aa": "C",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R273L",
+        "position": 273,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y236C",
+        "position": 236,
+        "ref_aa": "Y",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P278S",
+        "position": 278,
+        "ref_aa": "P",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R158H",
+        "position": 158,
+        "ref_aa": "R",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C242Afs*5",
+        "position": 242,
+        "ref_aa": "C",
+        "alt_aa": "A",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G266E",
+        "position": 266,
+        "ref_aa": "G",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C141Y",
+        "position": 141,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q144*",
+        "position": 144,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V173M",
+        "position": 173,
+        "ref_aa": "V",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E285K",
+        "position": 285,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E286K",
+        "position": 286,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E204*",
+        "position": 204,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E294*",
+        "position": 294,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R283P",
+        "position": 283,
+        "ref_aa": "R",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E271K",
+        "position": 271,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G266V",
+        "position": 266,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C275Y",
+        "position": 275,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R209Kfs*6",
+        "position": 209,
+        "ref_aa": "R",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "D281Y",
+        "position": 281,
+        "ref_aa": "D",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R337L",
+        "position": 337,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C242F",
+        "position": 242,
+        "ref_aa": "C",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V73Rfs*76",
+        "position": 73,
+        "ref_aa": "V",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G266R",
+        "position": 266,
+        "ref_aa": "G",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S241F",
+        "position": 241,
+        "ref_aa": "S",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "K132E",
+        "position": 132,
+        "ref_aa": "K",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E221*",
+        "position": 221,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "N239*",
+        "position": 239,
+        "ref_aa": "N",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P151H",
+        "position": 151,
+        "ref_aa": "P",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V173L",
+        "position": 173,
+        "ref_aa": "V",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H193Y",
+        "position": 193,
+        "ref_aa": "H",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "K164E",
+        "position": 164,
+        "ref_aa": "K",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "W91*",
+        "position": 91,
+        "ref_aa": "W",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R249M",
+        "position": 249,
+        "ref_aa": "R",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "A159P",
+        "position": 159,
+        "ref_aa": "A",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V73Wfs*50",
+        "position": 73,
+        "ref_aa": "V",
+        "alt_aa": "W",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G245C",
+        "position": 245,
+        "ref_aa": "G",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E68*",
+        "position": 68,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G244C",
+        "position": 244,
+        "ref_aa": "G",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S166*",
+        "position": 166,
+        "ref_aa": "S",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "N239S",
+        "position": 239,
+        "ref_aa": "N",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R248L",
+        "position": 248,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P250L",
+        "position": 250,
+        "ref_aa": "P",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H214R",
+        "position": 214,
+        "ref_aa": "H",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G244D",
+        "position": 244,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q331H",
+        "position": 331,
+        "ref_aa": "Q",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R267P",
+        "position": 267,
+        "ref_aa": "R",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "A159V",
+        "position": 159,
+        "ref_aa": "A",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q136*",
+        "position": 136,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S183*",
+        "position": 183,
+        "ref_aa": "S",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G108Vfs*15",
+        "position": 108,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R280S",
+        "position": 280,
+        "ref_aa": "R",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "F212Sfs*3",
+        "position": 212,
+        "ref_aa": "F",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "M246I",
+        "position": 246,
+        "ref_aa": "M",
+        "alt_aa": "I",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R342Efs*3",
+        "position": 342,
+        "ref_aa": "R",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C135Y",
+        "position": 135,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S241C",
+        "position": 241,
+        "ref_aa": "S",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E56*",
+        "position": 56,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R280T",
+        "position": 280,
+        "ref_aa": "R",
+        "alt_aa": "T",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P278A",
+        "position": 278,
+        "ref_aa": "P",
+        "alt_aa": "A",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y126N",
+        "position": 126,
+        "ref_aa": "Y",
+        "alt_aa": "N",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q167*",
+        "position": 167,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q136E",
+        "position": 136,
+        "ref_aa": "Q",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V157G",
+        "position": 157,
+        "ref_aa": "V",
+        "alt_aa": "G",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "F113C",
+        "position": 113,
+        "ref_aa": "F",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "D281E",
+        "position": 281,
+        "ref_aa": "D",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R280K",
+        "position": 280,
+        "ref_aa": "R",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C277F",
+        "position": 277,
+        "ref_aa": "C",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R280I",
+        "position": 280,
+        "ref_aa": "R",
+        "alt_aa": "I",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E285*",
+        "position": 285,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L35Cfs*9",
+        "position": 35,
+        "ref_aa": "L",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C229Yfs*10",
+        "position": 229,
+        "ref_aa": "C",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E224D",
+        "position": 224,
+        "ref_aa": "E",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R280G",
+        "position": 280,
+        "ref_aa": "R",
+        "alt_aa": "G",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "D259Y",
+        "position": 259,
+        "ref_aa": "D",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H179L",
+        "position": 179,
+        "ref_aa": "H",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G262V",
+        "position": 262,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R175G",
+        "position": 175,
+        "ref_aa": "R",
+        "alt_aa": "G",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y103*",
+        "position": 103,
+        "ref_aa": "Y",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G154Afs*16",
+        "position": 154,
+        "ref_aa": "G",
+        "alt_aa": "A",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P278R",
+        "position": 278,
+        "ref_aa": "P",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "T125M",
+        "position": 125,
+        "ref_aa": "T",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G266*",
+        "position": 266,
+        "ref_aa": "G",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V143M",
+        "position": 143,
+        "ref_aa": "V",
+        "alt_aa": "M",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R156P",
+        "position": 156,
+        "ref_aa": "R",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C275F",
+        "position": 275,
+        "ref_aa": "C",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E171*",
+        "position": 171,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P151S",
+        "position": 151,
+        "ref_aa": "P",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S127Y",
+        "position": 127,
+        "ref_aa": "S",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S106R",
+        "position": 106,
+        "ref_aa": "S",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R213L",
+        "position": 213,
+        "ref_aa": "R",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S127F",
+        "position": 127,
+        "ref_aa": "S",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "N239D",
+        "position": 239,
+        "ref_aa": "N",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R213Q",
+        "position": 213,
+        "ref_aa": "R",
+        "alt_aa": "Q",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "KRAS": [
+      {
+        "mutation": "G12D",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 102,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12V",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 88,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12C",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 45,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12R",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 29,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G13D",
+        "position": 13,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 11,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12A",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "A",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "A146T",
+        "position": 146,
+        "ref_aa": "A",
+        "alt_aa": "T",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q61H",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12S",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q61L",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12F",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "F",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "BRAF": [
+      {
+        "mutation": "V600E",
+        "position": 600,
+        "ref_aa": "V",
+        "alt_aa": "E",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 31,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G469V",
+        "position": 469,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G466V",
+        "position": 466,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "N581S",
+        "position": 581,
+        "ref_aa": "N",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "EGFR": [
+      {
+        "mutation": "A289V",
+        "position": 289,
+        "ref_aa": "A",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 13,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G598V",
+        "position": 598,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 12,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L858R",
+        "position": 858,
+        "ref_aa": "L",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "A289T",
+        "position": 289,
+        "ref_aa": "A",
+        "alt_aa": "T",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L861Q",
+        "position": 861,
+        "ref_aa": "L",
+        "alt_aa": "Q",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R222C",
+        "position": 222,
+        "ref_aa": "R",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R108K",
+        "position": 108,
+        "ref_aa": "R",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E114K",
+        "position": 114,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L62R",
+        "position": 62,
+        "ref_aa": "L",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P596L",
+        "position": 596,
+        "ref_aa": "P",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "A289D",
+        "position": 289,
+        "ref_aa": "A",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H304Y",
+        "position": 304,
+        "ref_aa": "H",
+        "alt_aa": "Y",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "PIK3CA": [
+      {
+        "mutation": "H1047R",
+        "position": 1047,
+        "ref_aa": "H",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 155,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E545K",
+        "position": 545,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 122,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E542K",
+        "position": 542,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 70,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "N345K",
+        "position": 345,
+        "ref_aa": "N",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 20,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "H1047L",
+        "position": 1047,
+        "ref_aa": "H",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 16,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E726K",
+        "position": 726,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 14,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R88Q",
+        "position": 88,
+        "ref_aa": "R",
+        "alt_aa": "Q",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 10,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E453K",
+        "position": 453,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q546R",
+        "position": 546,
+        "ref_aa": "Q",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 8,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G118D",
+        "position": 118,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q546K",
+        "position": 546,
+        "ref_aa": "Q",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E81K",
+        "position": 81,
+        "ref_aa": "E",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "C420R",
+        "position": 420,
+        "ref_aa": "C",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "M1043V",
+        "position": 1043,
+        "ref_aa": "M",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E545A",
+        "position": 545,
+        "ref_aa": "E",
+        "alt_aa": "A",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "M1043I",
+        "position": 1043,
+        "ref_aa": "M",
+        "alt_aa": "I",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G1049R",
+        "position": 1049,
+        "ref_aa": "G",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G1007R",
+        "position": 1007,
+        "ref_aa": "G",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "NRAS": [
+      {
+        "mutation": "Q61K",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "K",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q61L",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12C",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q61R",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "IDH1": [
+      {
+        "mutation": "R132H",
+        "position": 132,
+        "ref_aa": "R",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 13,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R132C",
+        "position": 132,
+        "ref_aa": "R",
+        "alt_aa": "C",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R132G",
+        "position": 132,
+        "ref_aa": "R",
+        "alt_aa": "G",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "IDH2": [
+      {
+        "mutation": "T146Dfs*126",
+        "position": 146,
+        "ref_aa": "T",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      }
+    ],
+    "PTEN": [
+      {
+        "mutation": "R130Q",
+        "position": 130,
+        "ref_aa": "R",
+        "alt_aa": "Q",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R233*",
+        "position": 233,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R130*",
+        "position": 130,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R335*",
+        "position": 335,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "T319*",
+        "position": 319,
+        "ref_aa": "T",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S170N",
+        "position": 170,
+        "ref_aa": "S",
+        "alt_aa": "N",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "APC": [
+      {
+        "mutation": "R1450*",
+        "position": 1450,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 19,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R876*",
+        "position": 876,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 11,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R216*",
+        "position": 216,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R805*",
+        "position": 805,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R564*",
+        "position": 564,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R1114*",
+        "position": 1114,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R213*",
+        "position": 213,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R232*",
+        "position": 232,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q1378*",
+        "position": 1378,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q1367*",
+        "position": 1367,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 4,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R554*",
+        "position": 554,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E1306*",
+        "position": 1306,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E1374*",
+        "position": 1374,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S1346*",
+        "position": 1346,
+        "ref_aa": "S",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R499*",
+        "position": 499,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Y935*",
+        "position": 935,
+        "ref_aa": "Y",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q1294*",
+        "position": 1294,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R302*",
+        "position": 302,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q1406*",
+        "position": 1406,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "VHL": [
+      {
+        "mutation": "S65*",
+        "position": 65,
+        "ref_aa": "S",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L89H",
+        "position": 89,
+        "ref_aa": "L",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S68*",
+        "position": 68,
+        "ref_aa": "S",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 6,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "S111N",
+        "position": 111,
+        "ref_aa": "S",
+        "alt_aa": "N",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "W88*",
+        "position": 88,
+        "ref_aa": "W",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q96*",
+        "position": 96,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "W117Gfs*42",
+        "position": 117,
+        "ref_aa": "W",
+        "alt_aa": "G",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "R82P",
+        "position": 82,
+        "ref_aa": "R",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "T124Hfs*35",
+        "position": 124,
+        "ref_aa": "T",
+        "alt_aa": "H",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L158V",
+        "position": 158,
+        "ref_aa": "L",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "E189*",
+        "position": 189,
+        "ref_aa": "E",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "L169P",
+        "position": 169,
+        "ref_aa": "L",
+        "alt_aa": "P",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "V74D",
+        "position": 74,
+        "ref_aa": "V",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "P45L",
+        "position": 45,
+        "ref_aa": "P",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q73*",
+        "position": 73,
+        "ref_aa": "Q",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "JAK2": [],
+    "KIT": [],
+    "ALK": [
+      {
+        "mutation": "R401*",
+        "position": 401,
+        "ref_aa": "R",
+        "alt_aa": "*",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ],
+    "ROS1": [],
+    "HRAS": [
+      {
+        "mutation": "G13V",
+        "position": 13,
+        "ref_aa": "G",
+        "alt_aa": "V",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 9,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12S",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "S",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 7,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G13R",
+        "position": 13,
+        "ref_aa": "G",
+        "alt_aa": "R",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "Q61L",
+        "position": 61,
+        "ref_aa": "Q",
+        "alt_aa": "L",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 5,
+        "source": "TCGA"
+      },
+      {
+        "mutation": "G12D",
+        "position": 12,
+        "ref_aa": "G",
+        "alt_aa": "D",
+        "cancer_types": [
+          "多种癌症"
+        ],
+        "frequency": 3,
+        "source": "TCGA"
+      }
+    ]
+  }
+}

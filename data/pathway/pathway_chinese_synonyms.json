@@ -1,0 +1,25 @@
+{
+  "_comment": "通路中文同义词映射 - 用户可自行扩展",
+  "_description": "将英文标准通路名称映射到中文显示名称，用于报告生成时的统一显示",
+  "mappings": {
+    "Apoptosis": ["细胞凋亡", "凋亡通路"],
+    "Cell cycle": ["细胞周期", "细胞周期通路"],
+    "Cellular senescence": ["细胞衰老", "衰老通路"],
+    "Autophagy": ["细胞自噬", "自噬通路"],
+    "DNA damage response": ["DNA损伤应答", "DNA损伤应答通路"],
+    "p53 signaling pathway": ["p53信号通路", "TP53信号通路"],
+    "MAPK signaling pathway": ["MAPK信号通路"],
+    "PI3K-Akt signaling pathway": ["PI3K/AKT信号通路", "PI3K-AKT信号通路"],
+    "Wnt signaling pathway": ["Wnt信号通路"],
+    "NF-kappa B signaling pathway": ["NF-κB信号通路"],
+    "JAK-STAT signaling pathway": ["JAK/STAT信号通路"],
+    "Notch signaling pathway": ["Notch信号通路"],
+    "Hedgehog signaling pathway": ["Hedgehog信号通路"],
+    "TGF-beta signaling pathway": ["TGF-β信号通路"],
+    "mTOR signaling pathway": ["mTOR信号通路"],
+    "Hippo signaling pathway": ["Hippo信号通路"],
+    "VEGF signaling pathway": ["VEGF信号通路"],
+    "Ras signaling pathway": ["Ras信号通路"],
+    "AMPK signaling pathway": ["AMPK信号通路"]
+  }
+}

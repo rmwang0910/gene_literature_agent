@@ -1,0 +1,345 @@
+# 基因文献智能检索助手配置文件
+# Gene Literature Intelligent Retrieval Agent Configuration
+#
+# 使用说明:
+# 1. 复制此文件为 config.yaml: cp config.yaml.example config.yaml
+# 2. 填入您的 API 密钥和邮箱
+# 3. config.yaml 已被 .gitignore 忽略，不会被提交到 Git
+
+# ============================================================================
+# API 端点配置
+# ============================================================================
+apis:
+  # CrossRef API (引用数据)
+  crossref: "https://api.crossref.org"
+
+  # OpenAlex API (引用数据、期刊信息)
+  openalex: "https://api.openalex.org"
+
+  # NCBI E-utilities API (PubMed检索)
+  ncbi: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+
+  # MyGene API (基因信息)
+  mygene: "https://mygene.info/v3"
+
+  # KEGG API (通路数据)
+  kegg: "https://rest.kegg.jp"
+
+  # Reactome API (通路数据)
+  reactome: "https://reactome.org"
+
+  # WikiPathways SPARQL
+  wikipathways: "https://sparql.wikipathways.org/sparql"
+
+  # cBioPortal API (癌症基因组数据)
+  cbioportal: "https://www.cbioportal.org/api"
+
+  # COSMIC API (癌症突变数据)
+  cosmic: "https://cancer.sanger.ac.uk/api"
+
+  # OncoKB API (肿瘤药物知识库)
+  oncokb: "https://www.oncokb.org/api/v1"
+
+# ============================================================================
+# NCBI 配置
+# ============================================================================
+ncbi:
+  # NCBI 账号邮箱（必需，用于 API 请求标识）
+  email: "your_email@example.com"
+
+  # NCBI API Key（可选但推荐，可提高请求频率限制）
+  # 获取地址: https://www.ncbi.nlm.nih.gov/account/settings/
+  api_key: ""
+
+# ============================================================================
+# LLM 配置
+# ============================================================================
+llm:
+  # LLM 服务提供商 (openai 兼容接口)
+  provider: "openai"
+
+  # API 密钥 (必需)
+  # 支持 OpenAI、阿里云通义千问 等兼容 OpenAI API 的服务
+  api_key: "your_api_key_here"
+
+  # 模型名称
+  # OpenAI: gpt-4o-mini, gpt-4o, gpt-4-turbo
+  # 通义千问: qwen-plus, qwen-turbo, qwen-max
+  model: "qwen-plus"
+
+  # API 基础 URL (可选，用于自定义端点)
+  # 通义千问: https://dashscope.aliyuncs.com/compatible-mode/v1
+  # OpenAI: 留空使用默认
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+  # 请求超时时间 (秒)
+  timeout: 120
+
+  # 最大 token 数
+  max_tokens: 4096
+
+  # 温度参数 (0-1，越低越确定性)
+  temperature: 0.3
+
+# ============================================================================
+# 检索配置
+# ============================================================================
+search:
+  default_max_results: 10
+  request_delay: 0.34
+  sort_by: "relevance"
+  article_types: []
+  min_citations: 0
+  min_impact_factor: 0.0
+  open_access_only: false
+
+# ============================================================================
+# 缓存配置
+# ============================================================================
+cache:
+  dir: "~/.gene_literature_cache"
+
+  # 各类缓存过期时间（天）
+  citation_ttl_days: 30      # 引用数据缓存
+  conclusion_ttl_days: 7     # LLM结论缓存
+
+# ============================================================================
+# 报告配置
+# ============================================================================
+report:
+  output_dir: "~/gene_reports"
+  formats:
+    - "markdown"
+    - "json"
+
+# ============================================================================
+# 关键词配置（人工维护）
+# ============================================================================
+
+# 野生型关键词（用于文本识别）
+wildtype_keywords:
+  - "野生型"
+  - "wild-type"
+  - "wildtype"
+  - "wild type"
+  - "正常"
+  - "normal"
+  - "native"
+  - "生理"
+  - "功能正常"
+  - "functional"
+  - "非突变"
+
+# 突变型关键词（用于文本识别）
+mutant_keywords:
+  - "突变"
+  - "mutation"
+  - "mutant"
+  - "mutated"
+  - "缺失"
+  - "deletion"
+  - "deleted"
+  - "失活"
+  - "inactivat"
+  - "loss-of-function"
+  - "功能丧失"
+  - "激活"
+  - "activat"
+  - "gain-of-function"
+  - "功能获得"
+  - "变异"
+  - "variant"
+  - "variation"
+  - "点突变"
+  - "point mutation"
+  - "移码"
+  - "frameshift"
+  - "插入"
+  - "insertion"
+  - "插入缺失"
+  - "indel"
+  - "融合"
+  - "fusion"
+  - "过表达"
+  - "overexpress"
+  - "高表达"
+  - "低表达"
+  - "underexpress"
+  - "down-regul"
+  - "扩增"
+  - "amplif"
+  - "amplification"
+  - "重排"
+  - "rearrangement"
+  - "translocation"
+
+# 疾病关键词（按优先级排序：从具体到宽泛）
+# 用于从文本中提取疾病信息
+disease_keywords:
+  # 肺癌
+  - "非小细胞肺癌"
+  - "小细胞肺癌"
+  - "肺腺癌"
+  - "肺鳞癌"
+  - "肺癌"
+  # 乳腺癌
+  - "三阴性乳腺癌"
+  - "HER2阳性乳腺癌"
+  - "乳腺癌"
+  # 肝癌
+  - "肝细胞癌"
+  - "胆管细胞癌"
+  - "肝癌"
+  # 消化系统
+  - "胃癌"
+  - "结直肠癌"
+  - "结肠癌"
+  - "直肠癌"
+  - "胰腺癌"
+  - "食管癌"
+  # 妇科
+  - "卵巢癌"
+  - "宫颈癌"
+  - "子宫内膜癌"
+  # 泌尿系统
+  - "前列腺癌"
+  - "膀胱癌"
+  - "肾癌"
+  # 血液系统
+  - "白血病"
+  - "淋巴瘤"
+  - "骨髓瘤"
+  # 神经系统
+  - "胶质瘤"
+  - "胶质母细胞瘤"
+  - "脑膜瘤"
+  - "神经母细胞瘤"
+  # 其他
+  - "黑色素瘤"
+  - "骨肉瘤"
+  - "甲状腺癌"
+  - "头颈癌"
+  # 泛指
+  - "恶性肿瘤"
+  - "肿瘤"
+  - "癌症"
+  - "癌"
+
+# ============================================================================
+# 冲突检测配置（人工维护）
+# ============================================================================
+
+# 冲突维度定义：包含语义对立词组
+conflict_dimensions:
+  疾病关系方向:
+    - ["促进", "抑制"]
+    - ["致癌", "抑癌"]
+    - ["驱动", "抑制"]
+    - ["激活", "失活"]
+    - ["上调", "下调"]
+    - ["高表达", "低表达"]
+    - ["增强", "减弱"]
+    - ["增加", "降低"]
+    - ["正向", "负向"]
+    - ["诱导", "抑制"]
+    - ["加速", "减缓"]
+
+  预后:
+    - ["不良", "良好"]
+    - ["差", "好"]
+    - ["预后差", "预后好"]
+    - ["预后不良", "预后良好"]
+    - ["低生存", "高生存"]
+    - ["短生存", "长生存"]
+    - ["生存期短", "生存期长"]
+    - ["poor prognosis", "good prognosis"]
+    - ["poor", "good"]
+    - ["worse", "better"]
+    - ["不良预后", "良好预后"]
+
+  治疗响应:
+    - ["耐药", "敏感"]
+    - ["抵抗", "敏感"]
+    - ["无效", "有效"]
+    - ["不响应", "响应"]
+    - ["复发", "缓解"]
+    - ["难治", "易治"]
+
+  突变效应:
+    - ["激活", "失活"]
+    - ["功能获得", "功能丧失"]
+    - ["gain-of-function", "loss-of-function"]
+    - ["激活突变", "失活突变"]
+
+  基因功能:
+    - ["抑癌", "致癌"]
+    - ["抑癌基因", "癌基因"]
+    - ["肿瘤抑制", "肿瘤促进"]
+
+  统计结论:
+    - ["显著相关", "无相关性"]
+    - ["显著", "不显著"]
+    - ["独立预后因子", "非独立因子"]
+    - ["独立", "非独立"]
+
+  证据强度:
+    - ["强", "弱"]
+    - ["高度", "低度"]
+    - ["明确", "不明确"]
+    - ["证实", "未证实"]
+    - ["支持", "不支持"]
+
+# 核心语义对立词组（强冲突，必须检测）
+core_semantic_opposites:
+  - ["预后好", "预后差"]
+  - ["预后良好", "预后不良"]
+  - ["预后较好", "预后较差"]
+  - ["生存率高", "生存率低"]
+  - ["生存期长", "生存期短"]
+  - ["促进肿瘤", "抑制肿瘤"]
+  - ["致癌", "抑癌"]
+  - ["功能获得", "功能丧失"]
+  - ["对治疗敏感", "对治疗耐药"]
+  - ["治疗有效", "治疗无效"]
+
+# ============================================================================
+# 置信度配置
+# ============================================================================
+
+# 影响因子阈值（用于期刊影响力标识）
+impact_factor_tiers:
+  top:
+    threshold: 50
+    label: "顶级期刊"
+    badge: "🏆"
+  high:
+    threshold: 20
+    label: "高影响力"
+    badge: "⭐"
+  medium_high:
+    threshold: 10
+    label: "中高影响力"
+    badge: "📈"
+  medium:
+    threshold: 5
+    label: "中等影响力"
+    badge: "📄"
+  low:
+    threshold: 0
+    label: ""
+    badge: ""
+
+# 置信度等级阈值
+confidence_levels:
+  high:
+    threshold: 80
+    label: "高置信度"
+    stars: "★★★★★"
+  medium:
+    threshold: 50
+    label: "中等置信度"
+    stars: "★★★☆☆"
+  low:
+    threshold: 0
+    label: "低置信度"
+    stars: "★☆☆☆☆"

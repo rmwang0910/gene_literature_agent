@@ -1,0 +1,15 @@
+"""
+提示词模板模块
+Prompt Templates for LLM Interactions
+"""
+
+from .extraction import EXTRACTION_PROMPT_TEMPLATE
+from .conflict import CONFLICT_DETECTION_PROMPT
+from .summary import SUMMARY_PROMPT_TEMPLATE, GENE_SUMMARY_PROMPT_TEMPLATE
+
+__all__ = [
+    "EXTRACTION_PROMPT_TEMPLATE",
+    "CONFLICT_DETECTION_PROMPT",
+    "SUMMARY_PROMPT_TEMPLATE",
+    "GENE_SUMMARY_PROMPT_TEMPLATE",
+]

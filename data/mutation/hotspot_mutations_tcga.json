@@ -1,0 +1,253 @@
+{
+  "source": "TCGA (via cBioPortal API)",
+  "studies": [
+    "brca_tcga",
+    "luad_tcga",
+    "lusc_tcga",
+    "coadread_tcga",
+    "hnsc_tcga",
+    "gbm_tcga",
+    "kirc_tcga",
+    "lihc_tcga",
+    "paad_tcga",
+    "ov_tcga"
+  ],
+  "genes": {
+    "TP53": [
+      {
+        "mutation": "R175H",
+        "count": 65
+      },
+      {
+        "mutation": "R273H",
+        "count": 44
+      },
+      {
+        "mutation": "R248W",
+        "count": 37
+      },
+      {
+        "mutation": "R248Q",
+        "count": 34
+      },
+      {
+        "mutation": "R213*",
+        "count": 32
+      },
+      {
+        "mutation": "R196*",
+        "count": 31
+      },
+      {
+        "mutation": "Y220C",
+        "count": 30
+      },
+      {
+        "mutation": "R282W",
+        "count": 28
+      },
+      {
+        "mutation": "R273C",
+        "count": 27
+      },
+      {
+        "mutation": "G245S",
+        "count": 22
+      }
+    ],
+    "KRAS": [
+      {
+        "mutation": "G12D",
+        "count": 102
+      },
+      {
+        "mutation": "G12V",
+        "count": 88
+      },
+      {
+        "mutation": "G12C",
+        "count": 45
+      },
+      {
+        "mutation": "G12R",
+        "count": 29
+      },
+      {
+        "mutation": "G13D",
+        "count": 11
+      },
+      {
+        "mutation": "G12A",
+        "count": 10
+      },
+      {
+        "mutation": "A146T",
+        "count": 8
+      },
+      {
+        "mutation": "Q61H",
+        "count": 7
+      },
+      {
+        "mutation": "G12S",
+        "count": 6
+      }
+    ],
+    "BRAF": [
+      {
+        "mutation": "V600E",
+        "count": 31
+      }
+    ],
+    "EGFR": [
+      {
+        "mutation": "A289V",
+        "count": 13
+      },
+      {
+        "mutation": "G598V",
+        "count": 12
+      },
+      {
+        "mutation": "L858R",
+        "count": 8
+      },
+      {
+        "mutation": "E746_A750del",
+        "count": 6
+      },
+      {
+        "mutation": "A289T",
+        "count": 6
+      },
+      {
+        "mutation": "L861Q",
+        "count": 5
+      },
+      {
+        "mutation": "R222C",
+        "count": 5
+      }
+    ],
+    "PIK3CA": [
+      {
+        "mutation": "H1047R",
+        "count": 155
+      },
+      {
+        "mutation": "E545K",
+        "count": 122
+      },
+      {
+        "mutation": "E542K",
+        "count": 70
+      },
+      {
+        "mutation": "N345K",
+        "count": 20
+      },
+      {
+        "mutation": "H1047L",
+        "count": 16
+      },
+      {
+        "mutation": "E726K",
+        "count": 14
+      },
+      {
+        "mutation": "R88Q",
+        "count": 10
+      },
+      {
+        "mutation": "E453K",
+        "count": 9
+      },
+      {
+        "mutation": "Q546R",
+        "count": 8
+      },
+      {
+        "mutation": "G118D",
+        "count": 6
+      }
+    ],
+    "NRAS": [
+      {
+        "mutation": "Q61K",
+        "count": 7
+      }
+    ],
+    "IDH1": [
+      {
+        "mutation": "R132H",
+        "count": 13
+      },
+      {
+        "mutation": "R132C",
+        "count": 5
+      }
+    ],
+    "PTEN": [
+      {
+        "mutation": "R130Q",
+        "count": 7
+      },
+      {
+        "mutation": "R233*",
+        "count": 6
+      },
+      {
+        "mutation": "R130*",
+        "count": 5
+      }
+    ],
+    "APC": [
+      {
+        "mutation": "R1450*",
+        "count": 19
+      },
+      {
+        "mutation": "R876*",
+        "count": 11
+      },
+      {
+        "mutation": "R216*",
+        "count": 7
+      },
+      {
+        "mutation": "R805*",
+        "count": 6
+      },
+      {
+        "mutation": "R564*",
+        "count": 6
+      },
+      {
+        "mutation": "R1114*",
+        "count": 6
+      },
+      {
+        "mutation": "R213*",
+        "count": 5
+      }
+    ],
+    "VHL": [
+      {
+        "mutation": "S65*",
+        "count": 7
+      },
+      {
+        "mutation": "L89H",
+        "count": 7
+      },
+      {
+        "mutation": "S68*",
+        "count": 6
+      },
+      {
+        "mutation": "S111N",
+        "count": 5
+      }
+    ]
+  }
+}
